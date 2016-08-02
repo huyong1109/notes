@@ -1,0 +1,42 @@
+# pre-trained
+	
+	better speedup
+
+# network compression
+
+## reduce depth of convolutional layers
+## reduce sizes of receptive fields
+
+# degradation: vanishing/exploding gradients:  
+
+## normalized initialization 
+## intermediate normalization layers
+## residual representation
+## shortcut connection
+
+# network connection pruning (10X compression)
+	normal network training
+
+	prune small-weight connections
+
+	retrain the network for the remaining sparse connections
+
+	
+
+# Trained Quantization and weight sharing ()
+	k-means clustering
+		linear initialization
+	in tensorflow : 
+		1. save graph depth
+		2. Quantization
+		
+		
+		bazel-bin/tensorflow/contrib/quantization/tools/quantize_graph \
+		--input=./train.pb \
+		--output_node_names="softmax" --output=./quantized_graph.pb \
+		--mode=eightbit
+		</script>
+		https://github.com/tensorflow/tensorflow/issues/616
+		
+
+# Huffman coding (20%)

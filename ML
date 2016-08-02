@@ -1,9 +1,0 @@
-# pre-trained
-# network compression
-##reduce depth of convolutional layers
-## reduce sizes of receptive fields
-# degradation: vanishing/exploding gradients:  
-## normalized initialization 
-## intermediate normalization layers
-## residual representation
-## shortcut connection
