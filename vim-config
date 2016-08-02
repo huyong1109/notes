@@ -69,6 +69,11 @@ Plugin 'vim-scripts/indentpython.vim'
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 
+" python diction 
+Bundle "Pydiction"
+let g:pydiction_location = '/home/yonghu/.vim/bundle/Pydiction/complete-dict'
+Bundle "The-NERD-tree"
+
 set encoding=utf-8
 
 Bundle 'Valloric/YouCompleteMe'
