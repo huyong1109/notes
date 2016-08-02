@@ -72,11 +72,12 @@ https://github.com/VundleVim/Vundle.vim
 
     " python diction 
     Bundle "Pydiction"
-    let g:pydiction_location = '/home/yonghu/.vim/bundle/Pydiction/complete-dict'
+    let g:pydiction_location = '${YOUR_HOME_DIR}/__.vim/bundle/Pydiction/complete-dict'
     Bundle "The-NERD-tree"
 
     set encoding=utf-8
 
+    " Really hard to set up for this plugin 
     Bundle 'Valloric/YouCompleteMe'
 
     Plugin 'scrooloose/syntastic'
@@ -100,4 +101,4 @@ https://github.com/VundleVim/Vundle.vim
 
 ## install plugins
 
-Launch `vim` and run `:PluginInstall` wea aaaaaaaaaa
+Launch `vim` and run `:PluginInstall`

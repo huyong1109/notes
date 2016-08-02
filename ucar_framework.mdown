@@ -1,6 +1,6 @@
-UCAR 架构
+#UCAR 架构
 
-# iBATIS
+## iBATIS
 数据库到应用的映射
 通过XML文件实现数据库的操作，并且将结果返回给应用
 http://www.yiibai.com/ibatis/ibatis_result_maps.html

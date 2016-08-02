@@ -1,13 +1,11 @@
-# Account 
-huy***1***  hy****1***
-ucar vpn: zuche\huyong  passwd
-aaa
+
 #Maven depency problems:
 ##1. package not exist/
 Check JDK version of Maven in InteliJ configurations
 
 
 #Artifact :war exploded: Server is not connected. Deploy is not available.
+
 Problem: 
 I fixed this by removing my setenv.bat in $CATALINA_HOME/bin. Here were the settings inside:
 

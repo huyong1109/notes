@@ -4,7 +4,7 @@
 When modern neural networks were being developed, the biggest challenge was getting them to work at all!
 
 ##Pruning
-aaa
+ 
 ##SqueezeNet
 
 
