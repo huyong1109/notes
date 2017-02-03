@@ -1,0 +1,6 @@
+# random seed
+Pseudorandom number generator starts from an initial state using seed state. It will always produce the same sequence when initialized with that state. 
+Thus in Python, introduce the following code if you want to reproduce the random sequence:
+
+	random.seed(1117)
+
