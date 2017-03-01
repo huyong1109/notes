@@ -99,6 +99,13 @@ https://github.com/VundleVim/Vundle.vim
         \ set softtabstop=2
         \ set shiftwidth=2
 
+    let g:ycm_autoclose_preview_window_after_completion=1
+    let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+    let g:ycm_seed_identifiers_with_syntax=1
+    nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 ## install plugins
 
 Launch `vim` and run `:PluginInstall`
+
+## For Clang, copy .ycm_extra_conf.py to ~/.vim/
